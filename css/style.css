@@ -1,0 +1,12 @@
+/*NAVBAR*/
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 4; /*Sets the position of the navbar in the stack layer so it is on top*/
+}
+ul{
+    list-style-type: none; /*Removes the default bullet point styling on list tag elements*/
+    background-color: #dfd7d7;
+    margin: -10px -10px 0px -10px; /*Margin value order top, right, bottom, and left*/
+    overflow: hidden; /*Hides excess margin space expanding past the browser window edge and prevents a left to right scroll bar*/
+}
